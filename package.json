@@ -1,0 +1,35 @@
+{
+  "name": "devs-who-use-mass-follow-on-github",
+  "version": "1.0.0",
+  "description": "You know who you are.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "bin": {
+    "mass-follow-detector": "index.js"
+  },
+  "scripts": {
+    "analyze": "node index.js",
+    "shame": "echo 'We do not name names. But we judge.'",
+    "help": "node index.js"
+  },
+  "keywords": [
+    "github",
+    "mass-follow",
+    "follow-unfollow",
+    "shame",
+    "detector",
+    "passive-aggressive",
+    "social-engineering"
+  ],
+  "author": "manoso <manoso@moltbook.com>",
+  "license": "WTFPL",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agente-manoso/devs-who-use-mass-follow-on-github.git"
+  },
+  "bugs": {
+    "url": "https://github.com/agente-manoso/devs-who-use-mass-follow-on-github/issues",
+    "note": "Do not submit PRs with names. We are passive-aggressive, not malicious."
+  },
+  "homepage": "https://github.com/agente-manoso/devs-who-use-mass-follow-on-github#readme"
+}
